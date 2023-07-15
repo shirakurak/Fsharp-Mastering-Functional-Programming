@@ -1,4 +1,4 @@
-# Functional PRogramming Principles
+# Functional Programming Principles
 
 ## Introduction to functional programming concepts
 
