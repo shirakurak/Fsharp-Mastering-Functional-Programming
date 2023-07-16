@@ -33,6 +33,17 @@ allows you
 - efficient
 - expressive
 
+key features: focus on functinal programming principles
+
+functional programming
+
+- computation as the evaluation of mathematical function
+- emphasizing imuutability
+- pure function
+- avoid side effect
+
+→ easier to reason about, test, maintain
+
 ## Setting up the F# development environment
 
 ## Basic F# syntax and language fundamentals
