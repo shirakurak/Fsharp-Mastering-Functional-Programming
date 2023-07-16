@@ -22,11 +22,25 @@ act of combining multiple functions to create a new function
 
 using `>>` operator
 
+// TODO: sample
+
 ### Recursion
+
+often used instead of iterative loops
 
 ### Immutable Data Structures
 
+F# prvides built-in immutable data structures:
+
+- list
+- set
+- map
+
 ### Function Pipelines
+
+// TODO: interesting sample
+
+`|>` operator
 
 ## Immutable data and value immutability
 
