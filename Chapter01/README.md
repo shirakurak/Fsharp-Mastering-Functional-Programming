@@ -44,6 +44,16 @@ functional programming
 
 → easier to reason about, test, maintain
 
+key features
+
+1. consise and expressive syntax
+2. strong type inference
+3. immutable data
+4. higer-order functions
+5. pattern matching
+6. interoperability with .NET
+7. Asynchronous and parallel programming
+
 ## Setting up the F# development environment
 
 ## Basic F# syntax and language fundamentals
