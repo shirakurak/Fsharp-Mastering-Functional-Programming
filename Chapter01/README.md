@@ -13,7 +13,7 @@ combines with
 
 > F# offers a unique and refreshing approach to writing software
 
-F#
+### F#
 
 - functional-first programming language
   - run on the .NET platform
@@ -44,7 +44,7 @@ functional programming
 
 → easier to reason about, test, maintain
 
-key features
+### key features
 
 1. consise and expressive syntax
    - enable you to write powerful code with fewer lines
