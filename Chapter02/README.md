@@ -18,6 +18,16 @@ function that can take other functions as parameters or return functions as resu
 
 ### Function Composition
 
+act of combining multiple functions to create a new function
+
+using `>>` operator
+
+### Recursion
+
+### Immutable Data Structures
+
+### Function Pipelines
+
 ## Immutable data and value immutability
 
 ## Pure functions and side effects
