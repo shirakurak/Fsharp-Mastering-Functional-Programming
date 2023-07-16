@@ -47,11 +47,22 @@ functional programming
 key features
 
 1. consise and expressive syntax
+   - enable you to write powerful code with fewer lines
+   - lightweight syntax
+     - focus on the problem
 2. strong type inference
+   - deduce the types of most expressions and variables
 3. immutable data
+   - data is immutable by default
 4. higer-order functions
+   - as first-class citzen
+     - as argument
+     - as result
+     - store them in data structures
 5. pattern matching
 6. interoperability with .NET
+   - can call .NET APIs
+   - create library
 7. Asynchronous and parallel programming
 
 ## Setting up the F# development environment
