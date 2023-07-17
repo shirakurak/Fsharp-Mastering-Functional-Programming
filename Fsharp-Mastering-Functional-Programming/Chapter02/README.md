@@ -27,7 +27,6 @@ using `>>` operator
 ### Recursion
 
 often used instead of iterative loops
-
 ### Immutable Data Structures
 
 F# prvides built-in immutable data structures:
