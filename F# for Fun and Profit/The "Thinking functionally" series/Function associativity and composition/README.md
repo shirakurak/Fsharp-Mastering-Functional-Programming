@@ -33,7 +33,7 @@ val g: T2 -> T3
 val f>>g: T1 -> T3
 ```
 
-example
+example:
 
 ```fs
 // f: int -> float
@@ -43,7 +43,7 @@ let f (x:int) = float x * 3.0
 let g (x:float) = x > 4.0
 ```
 
-composition
+composition:
 
 ```fs
 // h: int -> bool
@@ -55,11 +55,42 @@ let h (x: int) =
 let h (x:int) = g ( f(x) )
 ```
 
+can define:
+
+```fs
+// compose: ('a -> 'b) -> ('b -> 'c) -> 'a -> 'c
+let compose f g x = g ( f(x) )
+
+// >>
+let (>>) f g x = g ( f(x) )
+```
+
+example:
+
+```fs
+let add1 x = x + 1
+let times2 x = x * 2
+
+let add1Times2 x = (>>) add1 times2 x
+
+// old style
+let add1Times2 x = times2(add1 x)
+
+// new style
+let add1Times2 = add1 >> times2
+```
+
+Note:
+
+- not be possible in a non-functional programming
+- every function has one input and one output, so composition is possible
+
 ## Using the composition operator in practice
 
 ## Composition vs. pipeline
 
 ---
+practice
 
 ```sh
 $ dotnet fsi
@@ -80,4 +111,17 @@ val it: bool = false
 
 > h 2;;
 val it: bool = true
+
+> let add1 x = x + 1;;
+val add1: x: int -> int
+
+> let times2 x = x * 2;;
+val times2: x: int -> int
+
+> let add1Times2 x = (>>) add1 times2 x;;
+val add1Times2: x: int -> int
+
+> add1Times2 3;;
+val it: int = 8
+
 ```
