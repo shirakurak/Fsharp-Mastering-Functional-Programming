@@ -124,4 +124,18 @@ val add1Times2: x: int -> int
 > add1Times2 3;;
 val it: int = 8
 
+> let add n x = n + x;;
+val add: n: int -> x: int -> int
+
+> let times n x = x * n;;
+val times: n: int -> x: int -> int
+
+> let add5Times3 = add 5 >> times 3;;
+val add5Times3: (int -> int)
+
+> add5Times3 1;;
+val it: int = 18
+
+> let twice f = f >> f;;
+val twice: f: ('a -> 'a) -> ('a -> 'a)
 ```
