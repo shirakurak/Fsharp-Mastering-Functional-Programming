@@ -12,4 +12,6 @@ This repository also contains sample code not written in the book.
 
 my timeline for studying F#
 
-## 
+## LambdaCalculusFSharp
+
+for [LambdaCalculusFSharp](https://github.com/WhiteBlackGoose/LambdaCalculusFSharp)
