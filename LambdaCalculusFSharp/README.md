@@ -77,6 +77,21 @@ open LambdaCalculus.ToCSharp
 
 `LambdaCalculus/LambdaCalculus`配下を使用している。
 
+```fs
+let rec inputAndRespond() =
+  ...
+
+inputAndRespond ()
+```
+
+- 再起的な関数を定義して、実行する
+
+```fs
+Console.ForegroundColor <- ConsoleColor.White
+```
+
+- コンソールの文字色を、白にする
+
 
 
 
